@@ -1,6 +1,12 @@
 mjpg-streamer
 =============
 
+This is a fork of a fork that removes anti-ddos checking. I ran into an issue 
+that if I had more than one instance of the camera open on the same computer 
+I would get a 403 error that would cause issues in Octoprint and Octolapse.
+
+The remaining readme is left intact from the original.
+
 This is a fork of http://sourceforge.net/projects/mjpg-streamer/ with added support for the Raspberry Pi camera via the input_raspicam plugin.
 
 mjpg-streamer is a command line application that copies JPEG frames from one
